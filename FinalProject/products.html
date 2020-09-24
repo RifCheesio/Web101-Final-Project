@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakery Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+  <nav>
+      <div id="navbar">
+        <a class="navbuttons" href="index.html">Home</a>
+        <a class="navbuttons" href="products.html" id="active">Menu</a>
+        <a class="navbuttons" href="#">About</a>
+        <a class="navbuttons" href="Contact.html">Contact Us</a>
+      </div>
+  </nav>
+
+  <div id="products">
+    <div class="container">
+      <button type="button" class="collapsible">Savory</button>
+      <div class="content">
+        <div class="container">
+          <div class="row">
+
+            <div class="card">
+              <img class="card-img-top" src="images/croissant.jpg" alt="picture of croissant">
+              <div class="card-body">
+                <h5 class="card-title">Plain Croissants</h5>
+                <p class="card-text">Plain Croissants, Good for Tea</p>
+                <p class="card-product-price">$12</p>
+                <button class="btn btn-primary add-cart-btn">Add to Cart</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="images/baguette.jpg" alt="picture of baguette">
+              <div class="card-body">
+                <h5 class="card-title">Baguette</h5>
+                <p class="card-product-price">$20</p>
+                <p class="card-text">Plain French Baguette</p>
+                <button class="btn btn-primary add-cart-btn">Add to cart</button>
+              </div>
+            </div>
+
+          </div>
+        </div>    
+      </div>
+
+        
+      <button type="button" class="collapsible">Sweet</button>
+      <div class="content">
+        <div class="container">
+          <div class="row"> 
+
+            <div class="card">
+              <img class="card-img-top" src="images/milkbread.jpg" alt="picture of milkbread">
+              <div class="card-body">
+                <h5 class="card-title">Milkbread</h5>
+                <p class="card-text">Tasty Homemade Milkbread</p>
+                <p class="card-product-price">$24</p>
+                <button class="btn btn-primary add-cart-btn">Add to Cart</button>
+              </div>
+
+        </div>
+
+          </div>
+        </div>
+      </div>
+
+        <button type="button" class="collapsible">Other</button>
+        <div class="content">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus molestias, minima quod quibusdam eveniet delectus facilis dolor aperiam consequuntur fuga, aspernatur itaque assumenda voluptas ut? Laborum soluta saepe odio ipsa.</p>
+        </div>
+    </div>
+  </div>
+
+
+  <div id="cart">
+    <div class="container">
+      <div class="row">
+
+      <div class="col-md-4">
+        <h3>Placing Orders!</h3>
+        <p>We do not deliver! After you place your order, we will contact you once your order is ready to be picked up.</p>
+      </div>
+
+        <div class="col-md 8">
+          <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+          <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+          </div>
+          <div class="cart-items">
+
+          </div>
+          <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+          </div>
+          <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>       
+      </div>
+      </div>
+
+  </div>
+
+
+    <footer>
+      <hr>
+      <div id="footer-aboutus">
+        <h4>Bakery</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere architecto est reprehenderit aspernatur sapiente, beatae vitae pariatur asperiores iste sint tempora eaque voluptatum vel fugit placeat, eius deleniti illum impedit. </p>
+      </div>
+      
+      <ul id="bottom-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </footer>
+    <script src="js/ui.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
